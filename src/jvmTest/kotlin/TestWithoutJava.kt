@@ -6,6 +6,6 @@ import org.junit.Assert.*
 class TestWithoutJava {
 	@Test
 	fun test() {
-		assertFalse(isJavaThere())
+		assertTrue(isJavaThere())
 	}
 }
