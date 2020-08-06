@@ -7,7 +7,7 @@ class TestCommonCode {
 	@Test
 	fun testId() {
 		val x = 1
-		val idX = 4
+		val idX = id(x)
 		assertEquals(x, idX)
 	}
 	@Test
