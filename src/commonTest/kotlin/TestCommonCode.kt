@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 class TestCommonCode {
 	@Test
 	fun testId() {
-		val x = abc
+		val x = 10
 		val idX = id(x)
 		assertEquals(x, idX)
 	}
